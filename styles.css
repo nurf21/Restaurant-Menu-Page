@@ -3,7 +3,7 @@ h1, h2, p {
 }
 
 body {
-  /* background-color: #F4A261; */
+  background-image: url(https://static.vecteezy.com/system/resources/previews/021/428/963/non_2x/background-junk-food-related-seamless-pattern-and-background-editable-stroke-fast-food-line-art-of-hamburger-pizza-hot-dog-beverage-cheeseburger-restaurant-menu-background-free-vector.jpg);
 }
 
 .menu {
@@ -11,4 +11,12 @@ body {
   background-color: #F4A261;
   margin-left: auto;
   margin-right: auto;
+}
+
+.food {
+  text-align: left;
+}
+
+.price {
+  text-align: right;
 }
