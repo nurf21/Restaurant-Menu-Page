@@ -13,10 +13,16 @@ body {
   margin-right: auto;
 }
 
+.item p {
+  display: inline-block;
+}
+
 .food {
   text-align: left;
+  width: 75%;
 }
 
 .price {
   text-align: right;
+  width: 25%;
 }
