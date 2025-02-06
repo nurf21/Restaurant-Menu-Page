@@ -1,17 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
 h1, h2, p {
   text-align: center;
 }
 
 body {
   background-image: url(https://static.vecteezy.com/system/resources/previews/021/428/963/non_2x/background-junk-food-related-seamless-pattern-and-background-editable-stroke-fast-food-line-art-of-hamburger-pizza-hot-dog-beverage-cheeseburger-restaurant-menu-background-free-vector.jpg);
+  font-family: 'Lora', serif;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+h2 {
+  font-size: 30px;
 }
 
 .menu {
+  max-width: 500px;
   width: 80%;
   background-color: #F4A261;
   margin-left: auto;
   margin-right: auto;
   padding: 20px;
+}
+
+h1, h2 {
+  font-family: 'Playfair Display', serif;
+}
+
+.established {
+  font-style: italic;
 }
 
 .item p {
