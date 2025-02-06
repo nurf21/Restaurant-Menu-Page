@@ -58,3 +58,23 @@ h1, h2 {
   text-align: right;
   width: 25%;
 }
+
+.bottom-line {
+  margin-top: 25px;
+}
+
+footer {
+  font-size: 14px;
+}
+
+a, a:visited {
+  color: black;
+}
+
+a:hover {
+  color: #7d2c01;
+}
+
+a:active {
+  color: white;
+}
