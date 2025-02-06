@@ -13,10 +13,21 @@ body {
 
 h1 {
   font-size: 40px;
+  margin-top: 0;
+  margin-bottom: 15px;
 }
 
 h2 {
   font-size: 30px;
+}
+
+img {
+  display: block;
+  margin-top: -25px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 44px;
+  width: 44px;
 }
 
 .menu {
@@ -71,10 +82,10 @@ a, a:visited {
   color: black;
 }
 
-a:hover {
+a:hover, a:active {
   color: #7d2c01;
 }
 
-a:active {
-  color: white;
+.address {
+  margin-bottom: 5px;
 }
