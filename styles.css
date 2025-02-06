@@ -11,13 +11,14 @@ body {
   background-color: #F4A261;
   margin-left: auto;
   margin-right: auto;
+  padding: 20px;
 }
 
 .item p {
   display: inline-block;
 }
 
-.food {
+.food, .beverage {
   text-align: left;
   width: 75%;
 }
