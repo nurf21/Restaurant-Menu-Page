@@ -1,31 +1,33 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+
+body {
+  font-family: 'Lora', serif;
+  background-image: url(https://static.vecteezy.com/system/resources/previews/021/428/963/non_2x/background-junk-food-related-seamless-pattern-and-background-editable-stroke-fast-food-line-art-of-hamburger-pizza-hot-dog-beverage-cheeseburger-restaurant-menu-background-free-vector.jpg);
+  background-size: cover;
+  background-position: center;
+  padding: 20px;
+}
 
 h1, h2, p {
   text-align: center;
 }
 
-body {
-  background-image: url(https://static.vecteezy.com/system/resources/previews/021/428/963/non_2x/background-junk-food-related-seamless-pattern-and-background-editable-stroke-fast-food-line-art-of-hamburger-pizza-hot-dog-beverage-cheeseburger-restaurant-menu-background-free-vector.jpg);
-  font-family: 'Lora', serif;
-  padding: 20px;
-}
-
 h1 {
+  font-family: 'Playfair Display', serif;
   font-size: 40px;
   margin-top: 0;
   margin-bottom: 15px;
 }
 
 h2 {
+  font-family: 'Playfair Display', serif;
   font-size: 30px;
 }
 
 img {
   display: block;
-  margin-top: -25px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: -25px auto 0;
   height: 44px;
   width: 44px;
 }
@@ -34,19 +36,17 @@ img {
   max-width: 500px;
   width: 80%;
   background-color: #F4A261;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 20px auto;
   padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 hr {
   height: 2px;
   background-color: #7d2c01;
   border-color: #7d2c01;
-}
-
-h1, h2 {
-  font-family: 'Playfair Display', serif;
+  margin: 20px 0;
 }
 
 .established {
@@ -55,8 +55,7 @@ h1, h2 {
 
 .item p {
   display: inline-block;
-  margin-top: 5px;
-  margin-bottom: 5px;
+  margin: 5px 0;
   font-size: 18px;
 }
 
@@ -76,10 +75,13 @@ h1, h2 {
 
 footer {
   font-size: 14px;
+  text-align: center;
+  margin-top: 20px;
 }
 
 a, a:visited {
   color: black;
+  text-decoration: none;
 }
 
 a:hover, a:active {
