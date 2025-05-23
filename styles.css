@@ -1,15 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
 
+:root {
+  --primary-color: #F4A261;
+  --secondary-color: #7d2c01;
+  --background-image: url(https://static.vecteezy.com/system/resources/previews/021/428/963/non_2x/background-junk-food-related-seamless-pattern-and-background-editable-stroke-fast-food-line-art-of-hamburger-pizza-hot-dog-beverage-cheeseburger-restaurant-menu-background-free-vector.jpg);
+}
+
 body {
   font-family: 'Lora', serif;
-  background-image: url(https://static.vecteezy.com/system/resources/previews/021/428/963/non_2x/background-junk-food-related-seamless-pattern-and-background-editable-stroke-fast-food-line-art-of-hamburger-pizza-hot-dog-beverage-cheeseburger-restaurant-menu-background-free-vector.jpg);
+  background-image: var(--background-image);
   background-size: cover;
   background-position: center;
   padding: 20px;
 }
 
-h1, h2, p {
+h1,
+h2,
+p {
   text-align: center;
 }
 
@@ -35,7 +43,7 @@ img {
 .menu {
   max-width: 500px;
   width: 80%;
-  background-color: #F4A261;
+  background-color: var(--primary-color);
   margin: 20px auto;
   padding: 20px;
   border-radius: 10px;
@@ -44,8 +52,8 @@ img {
 
 hr {
   height: 2px;
-  background-color: #7d2c01;
-  border-color: #7d2c01;
+  background-color: var(--secondary-color);
+  border-color: var(--secondary-color);
   margin: 20px 0;
 }
 
@@ -59,7 +67,8 @@ hr {
   font-size: 18px;
 }
 
-.food, .beverage {
+.food,
+.beverage {
   text-align: left;
   width: 75%;
 }
@@ -79,13 +88,15 @@ footer {
   margin-top: 20px;
 }
 
-a, a:visited {
+a,
+a:visited {
   color: black;
   text-decoration: none;
 }
 
-a:hover, a:active {
-  color: #7d2c01;
+a:hover,
+a:active {
+  color: var(--secondary-color);
 }
 
 .address {
